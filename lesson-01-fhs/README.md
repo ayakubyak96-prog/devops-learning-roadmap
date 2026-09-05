@@ -1,4 +1,4 @@
-# Урок 01 — Linux FHS, навигация и права доступа
+# Урок 01 — Linux FHS
 
 ## 1. FHS (Filesystem Hierarchy Standard)
 
