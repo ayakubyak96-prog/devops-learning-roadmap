@@ -1,0 +1,14 @@
+[Unit]
+Description=MyApp Demo Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/devops/myapp/bin/run.sh
+Restart=on-failure
+RestartSec=5
+User=devops
+Group=devops
+
+[Install]
+WantedBy=multi-user.target
